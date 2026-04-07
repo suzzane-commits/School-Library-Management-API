@@ -1,0 +1,23 @@
+{
+  "name": "librarysystem",
+  "version": "1.0.0",
+  "description": " This is a library system for borrowing and returning books",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": " Susan Oyeniyi-Israel",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3"
+  },
+   "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
